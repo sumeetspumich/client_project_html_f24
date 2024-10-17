@@ -1,0 +1,267 @@
+
+#skip {
+    left: -1000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+#skip:focus {
+position: static;
+width: auto;
+height: auto;
+}
+
+
+header {
+    background-color: #00274C;
+    color: white;
+    padding: 10px;
+}
+
+
+img {
+    width: 100%;
+}
+
+/* NAV */
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto auto;
+    background-color: #00274C;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    align-content: center;
+    padding: 8px;
+}
+
+nav a:focus, nav a:hover {
+    outline: 2px solid #FFCB05;
+}
+
+nav .active {
+        background-color: #FFCB05;
+        color: black;
+        border-radius: 4px;
+}
+
+/* MAIN */
+
+main, nav, footer {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    color: #00274C;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+main h2 {
+    font-size: 1.8rem;
+    color: #00274C;
+    margin-top: 1.5rem;
+}
+main h3 {
+    font-size: 1.5rem;
+    color: #00274C;
+}
+
+main .section:last-child {
+    background-color: #EDF6FF;
+}
+
+main .section:nth-child(even){
+    background-color: #efefef;
+}
+
+/* SECTION */
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section ul, .section ol {
+    padding-left: 15px;
+    line-height: 1.5em;
+}
+
+.section a {
+    color: black;
+    padding: 4px;
+}
+
+.section a:hover {
+    color: #FFCB05;
+    background-color: #00274C;
+    padding: 4px;
+}
+
+.content img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.logo {
+    width: 50%;
+    display: block;
+}
+
+.content h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.content p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+
+/* CARDS */
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #Ffffff;
+    border-radius: 8px;
+}   
+
+.card img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.card-header {
+    background-color: #00274C;
+    color: #FFFFFF;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card-body {
+    padding: 15px;
+    line-height: 1.5em;
+}
+
+.card-body button {
+    padding: 8px;
+    background-color: #FFCB05;
+    color: #00274C;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.card-body button:hover, .card-body button:focus {
+    background-color: #FFC107;
+    color: #00274C;
+}
+
+.card-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 100%;
+}
+
+/* EVENTS */
+
+.event-list .card {
+    margin-bottom: 20px;
+}
+
+.event-list button {
+    padding: 10px;
+    background-color: #FFCB05;
+    color: #00274C;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.event-list button:hover, .event-list button:focus {
+    background-color: #FFC107;
+    color: #00274C;
+}
+
+
+
+/* BUTTONS */
+
+.button-link {
+    padding: 10px;
+    background-color: #FFCB05;
+    color: #00274C;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button-link:hover, .button-link:focus {
+    background-color: #FFC107;
+    color: #00274C;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #00274C;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+footer p, footer a {
+    font-size: 1.3 rem;
+    color: #FFFFFF;
+    padding: 0.8rem;
+    line-height: 1.3rem;
+    text-decoration: none;
+}
+footer a:hover, a:focus {
+    background-color: #21374C;
+    color: #FFCB05;
+    border: 1px solid #FFCB05;
+}
+footer img {
+    width: 150px;
+    margin: 1rem auto;
+}
+
+
+/* TESTIMONIAL */
+
+.testimonial {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-left: 5px solid #FFCB05;
+    font-style: italic;
+    line-height: 1.2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
