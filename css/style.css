@@ -1,3 +1,4 @@
+/* Skip link styles */
 #skip {
     left: -1000px;
     top: auto;
@@ -13,17 +14,19 @@
     height: auto;
 }
 
+/* Header styles */
 header {
     background-color: #00274C;
     color: white;
     padding: 10px;
 }
 
+/* Global image styles */
 img {
     width: 100%;
 }
 
-/* Mobile first - Base styles */
+/* Navigation styles */
 .navbar {
     display: grid;
     grid-template-columns: auto auto;
@@ -80,6 +83,7 @@ img {
     color: black;
 }
 
+/* Typography styles */
 main, nav, footer {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -102,6 +106,7 @@ main h3 {
     color: #00274C;
 }
 
+/* Section styles */
 main .section:last-child {
     background-color: #EDF6FF;
 }
@@ -134,6 +139,7 @@ main .section:nth-child(even){
     background-color: #00274C;
 }
 
+/* Content styles */
 .content img {
     width: 100%;
     height: 100%;
@@ -151,6 +157,7 @@ main .section:nth-child(even){
     line-height: 1.5em;
 }
 
+/* Card styles */
 .card {
     display: grid;
     grid-template-columns: 1fr;
@@ -188,6 +195,7 @@ main .section:nth-child(even){
     margin-top: 10px;
 }
 
+/* Button hover states */
 .card-body button:hover, 
 .card-body button:focus,
 .event-list button:hover,
@@ -198,6 +206,7 @@ main .section:nth-child(even){
     color: #00274C;
 }
 
+/* Card and event list layouts */
 .card-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -222,6 +231,7 @@ main .section:nth-child(even){
     margin-top: 20px;
 }
 
+/* Button link styles */
 .button-link {
     padding: 10px;
     background-color: #FFCB05;
@@ -234,6 +244,7 @@ main .section:nth-child(even){
     text-decoration: none;
 }
 
+/* Footer styles */
 footer {
     background-color: #00274C;
     color: #FFFFFF;
@@ -260,6 +271,7 @@ footer img {
     margin: 1rem auto;
 }
 
+/* Testimonial styles */
 .testimonial {
     background-color: #f8f9fa;
     padding: 2rem;
@@ -294,6 +306,7 @@ footer img {
     border-radius: 4px 0 0 4px;
 }
 
+/* Grid layouts */
 .grid-container,
 .stats-grid {
     display: grid;
@@ -309,6 +322,7 @@ footer img {
     margin: 2rem 0;
 }
 
+/* Hero section styles */
 .hero {
     position: relative;
     margin-bottom: 2rem;
@@ -324,6 +338,7 @@ footer img {
     color: white;
 }
 
+/* Quick links styles */
 .quick-links .grid-item {
     background: #f5f5f5;
     padding: 1.5rem;
@@ -332,6 +347,7 @@ footer img {
     transition: transform 0.2s;
 }
 
+/* Stats grid styles */
 .stats-grid {
     text-align: center;
     padding: 2rem 0;
@@ -350,6 +366,7 @@ footer img {
     color: #00274c;
 }
 
+/* Content layout styles */
 .content-row {
     margin-bottom: 2rem;
 }
@@ -375,6 +392,7 @@ footer img {
     padding: 1rem 0;
 }
 
+/* Grid item styles */
 .grid-item {
     display: grid;
     grid-template-rows: auto auto;
@@ -402,6 +420,7 @@ footer img {
     font-weight: 500;
 }
 
+/* Testimonial layout styles */
 .testimonial-container,
 .testimonial-row {
     display: grid;
@@ -416,6 +435,7 @@ footer img {
     gap: 20px;
 }
 
+/* Hero section layout styles */
 .hero-section {
     background-color: #21374C;
     color: white;
@@ -472,6 +492,7 @@ footer img {
     margin: 1rem 0;
 }
 
+/* Hero stats styles */
 .hero-stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -504,6 +525,7 @@ footer img {
     border-radius: 8px;
 }
 
+/* Access information styles */
 .access-info {
     display: grid;
     gap: 1.5rem;
@@ -529,6 +551,7 @@ footer img {
     line-height: 1.4;
 }
 
+/* Involvement options styles */
 .involvement-options {
     display: grid;
     grid-template-columns: 1fr;
@@ -560,6 +583,7 @@ footer img {
     font-size: 1.2rem;
 }
 
+/* Button link styles */
 .button-link {
     display: inline-block;
     padding: 0.8rem 1.5rem;
@@ -573,12 +597,14 @@ footer img {
     transition: background-color 0.2s;
 }
 
+/* Text content styles */
 .text-content h3 {
     color: #00274C;
     margin-bottom: 1rem;
     font-size: 1.5rem;
 }
 
+/* FAQ section styles */
 .faq-section {
     background-color: #f8f9fa;
     padding: 2rem;
@@ -641,6 +667,7 @@ footer img {
     padding-left: 1.5rem;
 }
 
+/* Learn more link styles */
 .learn-more {
     display: inline-block;
     margin-top: 1rem;
@@ -653,11 +680,13 @@ footer img {
     color: #FFCB05;
 }
 
+/* FAQ header styles */
 .faq-header {
     text-align: center;
     margin-bottom: 2rem;
 }
 
+/* Contact information styles */
 .contact-info {
     text-align: center;
     margin-top: 3rem;
@@ -677,6 +706,7 @@ footer img {
     font-size: 0.9rem;
 }
 
+/* Error page styles */
 .error-page {
     min-height: 80vh;
     display: flex;
